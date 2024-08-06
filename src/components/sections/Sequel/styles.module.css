@@ -1,0 +1,51 @@
+.sequelBackground {
+    background: linear-gradient(180deg, #A13E48 0%, #752C34 100%), #CD8866;
+    border-radius: 50px;
+}
+.sequelWrapper {
+    padding: 1px;
+    background: linear-gradient(180deg, #FFB5BC 0%, #501C21 100%);
+    border-radius: 50px;
+}
+@media (max-width:640px) {
+    .sequelWrapper, .sequelBackground {
+        border-radius: 0px;
+    }
+    .sequelWrapper {
+        padding: 1px 0 1px 0;
+    }
+}
+.container {
+    padding: 6rem 0 36px 0;
+}
+@media (min-width: 768px) {
+    .container {
+        padding: 6rem 48px 36px 48px;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        padding: 6rem 64px 36px 64px;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        padding: 6rem 0 36px 0;
+    }
+}
+.logo {
+    height: 145%;
+}
+@media (max-width: 768px) {
+    .logo {
+        width: 140%;
+        margin-left: -20%;
+    }
+}
+@media (max-width: 1023px) {
+    .logo {
+        height: 120%;
+        width: 100%;
+        margin-left: 0%;
+    }
+}

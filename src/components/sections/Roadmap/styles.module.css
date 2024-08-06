@@ -1,0 +1,46 @@
+.container {
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        flex-flow: column wrap;
+        height: 51rem;
+    }
+}
+.checked {
+    width: 31px;
+    height: 31px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(67.24% 67.24% at 50% 100%, rgba(12,294,253,.4) 0%, rgba(86,115,176,.4) 100%), #0E1634;
+    box-shadow: 0 4px 20px rgba(170, 224, 255, 0.37);
+    border-radius: 50%;
+}
+
+.notChecked {
+    width: 31px;
+    height: 31px;
+    margin-right: 16px;
+    border: 1px solid #B9B9B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.line {
+    width: 46px;
+    height: 3px;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #35CFD5), color-stop(100%, #0D1420));
+    background: -moz-linear-gradient(left, #35CFD5 0%, #0D1420 100%);
+    background: -webkit-linear-gradient(left, #35CFD5 0%, #0D1420 100%);
+    background: -o-linear-gradient(left, #35CFD5 0%, #0D1420 100%);
+    background: -ms-linear-gradient(left, #35CFD5 0%, #0D1420 100%);
+    background: linear-gradient(to right, #35CFD5 0%, #0D1420 100%);
+}

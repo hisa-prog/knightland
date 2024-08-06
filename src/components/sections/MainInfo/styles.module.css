@@ -1,0 +1,49 @@
+.backgroundmain {
+    height: 90vh;
+    background: url(../../../../public/common/newBackgroundDesc.webp) no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+    z-index: 1;
+    padding: 7.5rem 8rem 0 8rem;
+}
+
+.backgroundfree {
+    height: 200vh;
+    background: url(../../../../public/common/backgroundFree.webp) no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+@media (max-width:640px) {
+    .backgroundmain {
+        background: url(../../../../public/common/newBackgroundMobile.webp) no-repeat;
+        background-size: 100% 100%;
+        background-position: center top;
+        padding: 0 20px;
+
+    }
+
+    .backgroundfree {
+        height: 200vh;
+        width: 100%;
+        background: url(../../../../public/common/backgroundFreeMobile.webp) no-repeat fixed;
+    }
+
+}
+
+@media (max-width:1023px) and (min-width:641px) {
+    .backgroundmain {
+        background: url(../../../../public/common/newBackgroundTablet.webp) no-repeat;
+        background-size: 100% 100%;
+        background-position: center top;
+        padding: 0 50px;
+    }
+
+    .backgroundfree {
+        background: url(../../../../public/common/backgroundFreeTablet.webp) no-repeat;
+        background-size: 100% 100%;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+}

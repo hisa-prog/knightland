@@ -1,0 +1,7 @@
+.root {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFEB3D;
+    margin-right: 8px;
+}

@@ -1,0 +1,22 @@
+.root {
+    padding: 7.5rem 0 2rem 0;
+}
+
+@media (min-width: 768px) {
+    .root {
+        padding: 8.125rem 3rem 2rem 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .root {
+        padding: 7.5rem 4rem 2rem 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .root {
+        padding: 7.5rem 0 2rem 0;
+    }
+}
+

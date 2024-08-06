@@ -1,0 +1,92 @@
+.img_frame {
+    background: linear-gradient(180deg, rgba(34, 95, 104, 0.08) 0%, #05161C 98.83%);
+    height: 216px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.img {
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.monster_card {
+    position: relative;
+}
+
+.card_inner {
+    position: relative;
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.monster_card:hover .card_inner {
+    width: 100%;
+    position: absolute;
+    transform: scale(1.05);
+    transition: 0.1ms;
+    z-index: 30;
+    transition: transform 1.5s;
+    transform-origin: bottom;
+}
+
+.monster_card:hover .img_frame {
+    background: linear-gradient(180deg, #335256 0%, #062D38 98.83%);
+    border-radius: 8px;
+    z-index: 30;
+}
+
+.slide {
+    opacity: 0.5;
+    min-width: 16.666667%;
+}
+
+.slide:hover {
+    opacity: 1;
+    z-index: 30;
+}
+
+.swiper {
+    height: 264px;
+    min-width: 100% !important;
+    overflow: unset !important;
+}
+
+@media (max-width:767px) {
+    .swiper {
+        overflow: hidden !important;
+    }
+
+    .monster_card:hover .card_inner {
+        transform: scale(1);
+    }
+}
+
+@media (min-width:768px) and (max-width:1014px) {
+    .img_frame {
+        height: 150px;
+    }
+}
+
+.play_icon {
+    transform: translate(-50%, -50%);
+    top: 180px;
+}
+
+.overlay {
+    width: 100%;
+    height: 200vh;
+    transform: translate(0, -30%);
+    background: #000;
+    opacity: 0.5;
+}
+
+.text-size {
+    font-size: 14px !important;
+}
+
+.slick-center .text-size {
+    font-size: 30px !important;
+}
+

@@ -1,0 +1,9 @@
+.visible {
+    transform: translateX(0%);
+    transition: 0.2s ease-out;
+}
+
+.hidden {
+    transform: translateX(100%);
+    transition: 0.2s ease-out;
+}

@@ -1,0 +1,17 @@
+.logo {
+    width: 184px;
+    margin-right: 28px;
+}
+
+.background {
+    opacity: 1;
+    padding: 1rem 0;
+    background-color: #1C3150;
+    -moz-transition: .3s opacity, .3s visibility;
+    -o-transition: .3s opacity, .3s visibility;
+    -webkit-transition: .3s opacity, .3s visibility;
+}
+
+.noBackground {
+    opacity: 0;
+}

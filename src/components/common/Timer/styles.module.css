@@ -1,0 +1,17 @@
+.time {
+    font-family: Play;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.dimension {
+    font-family: Play;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8A978C;
+}

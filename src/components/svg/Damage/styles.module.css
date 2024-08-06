@@ -1,0 +1,10 @@
+.text {
+    top: 30%;
+    font-family: Play;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

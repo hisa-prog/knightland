@@ -1,0 +1,12 @@
+.usdc {
+    max-height: 280px;
+    padding: 32px 18px 32px 48px;
+    background: radial-gradient(63.06% 63.06% at 50.04% 0%, rgba(255, 102, 149, 0.4) 0%, rgba(8, 31, 52, 0.4) 100%), linear-gradient(180deg, rgba(233, 61, 114, 0.07) 0%, rgba(212, 236, 219, 0.07) 100%);
+    border-radius: 40px;
+}
+
+.h2 {
+    background: linear-gradient(90deg, #EC6891, #9045EF 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
